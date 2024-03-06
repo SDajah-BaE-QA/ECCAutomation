@@ -32,7 +32,7 @@ public class OutwardChequesTest extends BaseTest{
 		outwardPage.qualityAssuranceReject(sequence);
 		outwardPage.repairTab(sequence);
 		outwardPage.qualityAssuranceAccept(sequence); 
-		System.out.println("Passed");
+		
 	}
 	
 	@DataProvider
