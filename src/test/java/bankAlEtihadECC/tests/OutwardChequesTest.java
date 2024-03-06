@@ -19,7 +19,7 @@ public class OutwardChequesTest extends BaseTest{
 		outwardPage.createBatch();
 		String sequence= outwardPage.chequeInfo();
 		outwardPage.qualityAssuranceAccept(sequence);      
-
+		//test
 	}
 	
 	@Test(dataProvider= "getData")
